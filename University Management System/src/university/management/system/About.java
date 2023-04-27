@@ -10,7 +10,7 @@ public class About extends JFrame {
         setLocation(400, 150);
         getContentPane().setBackground(Color.WHITE);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/about.jpg"));
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/uemabout.jpg"));
         Image i2 = i1.getImage().getScaledInstance(300, 200, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
@@ -22,7 +22,7 @@ public class About extends JFrame {
         heading.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(heading);
         
-        JLabel name = new JLabel("Developed By: Code for Interview");
+        JLabel name = new JLabel("Developed By: Ashish Kumar, Shubham Nayak and Manvendra Singh Shekhawat");
         name.setBounds(70, 220, 550, 40);
         name.setFont(new Font("Tahoma", Font.BOLD, 30));
         add(name);
@@ -32,7 +32,7 @@ public class About extends JFrame {
         rollno.setFont(new Font("Tahoma", Font.PLAIN, 30));
         add(rollno);
         
-        JLabel contact = new JLabel("Contact: codeforinterview03@gmail.com");
+        JLabel contact = new JLabel("Contact: prince032000@gmail.com");
         contact.setBounds(70, 340, 550, 40);
         contact.setFont(new Font("Tahoma", Font.PLAIN, 20));
         add(contact);

@@ -19,12 +19,12 @@ public class Marks extends JFrame implements ActionListener {
         
         getContentPane().setBackground(Color.WHITE);
         
-        JLabel heading = new JLabel("Delhi Technical Univeristy");
+        JLabel heading = new JLabel("University of Engineering & Management Jaipur");
         heading.setBounds(100, 10, 500, 25);
         heading.setFont(new Font("Tahoma", Font.BOLD, 20));
         add(heading);
         
-        JLabel subheading = new JLabel("Result of Examination 2022");
+        JLabel subheading = new JLabel("Result of Examination 2023");
         subheading.setBounds(100, 50, 500, 20);
         subheading.setFont(new Font("Tahoma", Font.BOLD, 18));
         add(subheading);
@@ -63,6 +63,10 @@ public class Marks extends JFrame implements ActionListener {
         sub5.setBounds(100, 320, 500, 20);
         sub5.setFont(new Font("Tahoma", Font.PLAIN, 18));
         add(sub5);
+        JLabel end = new JLabel("Passed and Promoted.");
+        subheading.setBounds(100, 50, 500, 20);
+        subheading.setFont(new Font("Tahoma", Font.BOLD, 18));
+        add(end);
         
         try {
             Conn c = new Conn();
